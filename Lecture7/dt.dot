@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="agea <= 21.5\ngini = 0.4213\nsamples = 11943\nvalue = [3603, 8340]"] ;
+1 [label="agea <= 18.5\ngini = 0.325\nsamples = 945\nvalue = [752, 193]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="eisced <= 5.5\ngini = 0.0847\nsamples = 519\nvalue = [496, 23]"] ;
+1 -> 2 ;
+3 [label="gini = 0.0813\nsamples = 518\nvalue = [496, 22]"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]"] ;
+2 -> 4 ;
+5 [label="eisced <= 3.5\ngini = 0.4796\nsamples = 426\nvalue = [256, 170]"] ;
+1 -> 5 ;
+6 [label="gini = 0.3835\nsamples = 174\nvalue = [129, 45]"] ;
+5 -> 6 ;
+7 [label="gini = 0.5\nsamples = 252\nvalue = [127, 125]"] ;
+5 -> 7 ;
+8 [label="agea <= 40.5\ngini = 0.3841\nsamples = 10998\nvalue = [2851, 8147]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="eisced <= 4.5\ngini = 0.4643\nsamples = 3270\nvalue = [1198, 2072]"] ;
+8 -> 9 ;
+10 [label="gini = 0.4968\nsamples = 1641\nvalue = [755, 886]"] ;
+9 -> 10 ;
+11 [label="gini = 0.396\nsamples = 1629\nvalue = [443, 1186]"] ;
+9 -> 11 ;
+12 [label="eisced <= 4.5\ngini = 0.3363\nsamples = 7728\nvalue = [1653, 6075]"] ;
+8 -> 12 ;
+13 [label="gini = 0.376\nsamples = 4969\nvalue = [1247, 3722]"] ;
+12 -> 13 ;
+14 [label="gini = 0.251\nsamples = 2759\nvalue = [406, 2353]"] ;
+12 -> 14 ;
+}

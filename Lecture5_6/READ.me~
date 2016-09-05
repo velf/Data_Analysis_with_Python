@@ -1,0 +1,27 @@
+nintendo.csv is a databse of people who worked on video games from 1980 to 2009.
+
+'working_index', ', unique id of the row
+'game_id_x', id of the given game the developer worked in
+'platform_id_x', id of the given game's platform (eg.: PC, PS, mobile)
+'title_category', shows in which role someone participated in the game development
+'title_category_id',
+'normilized_title_id', 
+'normalized_title', shows in which role someone participated in the game development, with less categories
+'developer_id', unique id of the developer
+'game_id_str', unique d of the game
+'Label', name of the game
+'year', year the game was released
+'number_of_projects_been', in how many projects before the given one the belonging employer worked
+'changing_title', in how many positions before the given one the belonging employer worked
+'changing_poitions how many times the given employee changed position categories (eg.:from developemnt to amanagement)
+
+titles.csv: this is a database regarding success of the games. Moby Games is a website where users can vote and score games
+'game_id': id of the game
+'platform_id', platform id of the game
+'game_title', game title
+u'moby_score', scores given by users
+'total_moby_score_votes', total votes by moy users
+'registered_users_moby_score_votes', votes by only registered users
+'moby_rank', rank absed on votes
+
+
